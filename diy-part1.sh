@@ -16,3 +16,4 @@
 # Add a feed source
 sed -i '$a src-git helloworld https://github.com/fw876/helloworld' feeds.conf.default
 sed -i '$a src-git cups https://github.com/LondyGhost/luci-cups' feeds.conf.default
+echo "src-git airsaned https://github.com/tbaela/AirSane-openwrt.git" >> feeds.conf.default
